@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Tvtitle"
+            android:text="title"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tvstatus"
+            android:text="status"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/TvstartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="startDate"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TvendDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="endDate " />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
